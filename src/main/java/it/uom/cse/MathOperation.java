@@ -2,6 +2,9 @@ package it.uom.cse;
 
 import java.util.Arrays;
 
+/**
+ * Test
+ */
 
 public class MathOperation {
 
@@ -15,6 +18,7 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
+
     public static int fib(int n){
         int result=0;
         int next=1;
@@ -27,6 +31,30 @@ public class MathOperation {
         }
         return sum;
 
+
+
+    public static int sumOfIntegers(int n) {
+
+        int sum = 0;
+        for (int i = 0; i <= n; i++) {
+            sum += i;
+        }
+        return sum;
+
+    }
+
+    public static int factorial(int n){
+
+        if(n == 0)
+            return 1;
+
+        int factorial = 1;
+
+        for(int i = n; i > 0; i--){
+            factorial *= i;
+        }
+
+        return factorial;
 
 
 
