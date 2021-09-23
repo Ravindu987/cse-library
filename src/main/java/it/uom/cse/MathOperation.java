@@ -19,13 +19,15 @@ public class MathOperation {
     }
 
 
-    public static int sumOfIntegers(int n){
+    public static int sumOfIntegers(int n) {
 
-        int sum=0;
-        for(int i=0;i<=n;i++){
-            sum+=i;
+        int sum = 0;
+        for (int i = 0; i <= n; i++) {
+            sum += i;
         }
         return sum;
+
+    }
 
     public static int factorial(int n){
 
