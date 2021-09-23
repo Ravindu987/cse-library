@@ -19,18 +19,18 @@ public class MathOperation {
     }
 
 
-    public static int fib(int n){
-        int result=0;
-        int next=1;
-        int sum=0;
-        for (int j=1;j<n;j++){
-            sum=result+next;
-            result=next;
-            next=sum;
+    public static int fib(int n) {
+        int result = 0;
+        int next = 1;
+        int sum = 0;
+        for (int j = 1; j < n; j++) {
+            sum = result + next;
+            result = next;
+            next = sum;
 
         }
         return sum;
-
+    }
 
 
     public static int sumOfIntegers(int n) {
